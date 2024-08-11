@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JavaScript</title>
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <section class="sec-1">
+      <div class="container">
+        <div class="row">
+          <!--------------- Ex-1 --------------->
+          <hr>
+          <div class="col-lg-10 mb-3">
+            <h3 id="s_date" ></h3>
+            <button type="button" class="btn btn-primary" onclick="showDate()"> Show Date</button>
+          </div>
+          <hr>
+          <!--------------- Ex-2 --------------->
+          <div class="col-lg-10 mb-3">
+            <h3 id="c_content" >JavaScript Can Change HTML</h3>
+            <button type="button" class="btn btn-danger" onclick="c_text()"> Click to change the text</button>
+            <hr>
+          </div>
+          <!--------------- Ex-3 --------------->
+          <div class="col-lg-10 mb-3">
+            <button type="button" class="btn btn-secondary" id="btn_on" onclick="bulb_off()">Turn on the light</button>
+            <img id="myImage" src="images/pic_bulboff.gif" style="width:100px">
+            <button type="button" class="btn btn-danger" id="btn_off" onclick="bulb_on()">Turn off the light</button>
+            <hr>
+          </div>
+          <!--------------- Ex-4 --------------->
+          <div class="col-lg-10 mb-3">
+            <h3> 5 + 7 = <span id="ans"></span></h3>
+            <button type="submit" class="btn btn-primary" id="sum" onclick="sum()">Answer</button>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Js Link  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
